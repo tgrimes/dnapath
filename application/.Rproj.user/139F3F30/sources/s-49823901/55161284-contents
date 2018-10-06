@@ -1,0 +1,32 @@
+# Generate sample from network.
+n <- 100
+mu <- sample(get_reference_count_means(), p)
+overdispersion <- 1
+intensity <- 1.5
+k <- 1.5
+
+seed_generator <- round(runif(1, 1, 10^9))
+set.seed(seed_generator)
+new_x <- NULL
+while(is.null(new_x)) {
+  new_x <- gen_gamma_poisson(n, 
+                         network,
+                         mu = mu,
+                         overdispersion = overdispersion,
+                         intensity = intensity,
+                         k = k)$x
+  if(any(apply(new_x, 2, sd) == 0)) new_x <- NULL 
+}
+
+x <- NULL
+if(!("x" %in% ls())) {
+  x <- NULL
+} else if(!is.null(x)) {
+  x <- rbind(x, new_x)
+} else {
+  x <- new_x
+}
+rm(new_x)
+gc()
+
+n <- nrow(x)

@@ -1,0 +1,94 @@
+
+source("src/init_required_packages_and_files.R")
+library(tidyverse)
+
+res <- tibble(sim = numeric(), n = numeric(), network = numeric(), m = character(), 
+              mse = numeric(), method = character())
+
+for(n_networks in 1:20) {
+  seed <- floor(runif(1, 0, 10^8))
+  set.seed(seed)
+  network <- create_network(20, modules = list(1:20))
+  #for(i in 1:10) network <- rewire_connections_to_node(network, i, 1 / (i + 1)^2)
+  
+  for(sim in 1:100) {
+    for(n in c(5, 10, 25, 50, 200)) {
+      # x <- matrix(rnorm(1000), 100, 10)
+      # ct <- diag(1, 10)
+      gen <- gen_gaussian(n, network = network)
+      x <- gen$x
+      ct <- cov2cor(solve(gen$sigma))
+      
+      method1 <- function(x, method = c("cor", "cov")) {
+        if(method[1] == "cor") {
+          scores <- cor(x)
+        } else {
+          scores <- cov(x)
+        }
+        cov2cor(pseudoinverse(scores))
+      }
+      method2 <- function(x, method = c("cor", "cov")) {
+        if(method[1] == "cor") {
+          scores <- cor(x)
+        } else {
+          scores <- cov(x)
+        }
+        cov2cor(solve(scores + diag((max(eigen(scores)$values) * 10^-1 - min(eigen(scores)$values)), 
+                                    nrow(scores)) * (min(eigen(scores)$values) < max(eigen(scores)$values) * 10^-1)))
+      }
+      method3 <- function(x, method = c("cor", "cov")) {
+        if(method[1] == "cor") {
+          return(cov2cor(invcor.shrink(x, verbose = FALSE)))
+        } else {
+          return(cov2cor(invcov.shrink(x, verbose = FALSE)))
+        }
+      }
+      method4 <- function(x, method = c("cor", "cov")) {
+        if(method[1] == "cor") {
+          scores <- cor(x)
+        } else {
+          scores <- cov(x)
+        }
+        as.matrix(cov2cor(solve(nearPD(scores)$mat)))
+      }
+      
+      methods <- list("pseudo" = method1,
+                      "diag" = method2,
+                      "shrink" = method3,
+                      "nearPD" = method4)
+      par(mfrow = c(4, 2))
+      for(i in 1:length(methods)) {
+        m <- names(methods)[i]
+        val_cor <- methods[[i]](x, "cor")
+        val_cov <- methods[[i]](x, "cov")
+        mse_cor = round(sqrt(mean((ct - val_cor)^2)), 4)
+        mse_cov = round(sqrt(mean((ct - val_cov)^2)), 4)
+        #hist(abs(ct - val_cor), main = paste(m, mse_cor))
+        #hist(abs(ct - val_cov), main = paste(m, mse_cov))
+        res <- rbind(res,
+                     tibble(sim = sim, n = n, network = seed, m = m, mse = mse_cor, method = "cor"),
+                     tibble(sim = sim, n = n, network = seed, m = m, mse = mse_cov, method = "cov"))
+      }
+    }
+  }
+  
+  par(mfrow = c(1, 1))
+  plot(network, main = seed)
+  g <- res %>%
+    filter(network == seed) %>%
+    ggplot(aes(x = m, y = mse, linetype = method, color = factor(n))) +
+    geom_boxplot() +
+    theme_bw() +
+    labs(title = paste0("seed = ", seed))
+  plot(g)
+}
+
+spread(res, key = method, value = mse)
+res %>%
+  filter(method == "cor",
+         m %in% c("shrink", "diag")) %>%
+  ggplot(aes(x = n, y = mse, color = m)) +
+  geom_boxplot(aes(group = factor(paste(n, m)))) +
+  scale_x_log10(breaks = c(5, 10, 25, 50, 200)) +
+  theme_bw() +
+  labs(title = paste0("seed = ", seed))

@@ -1,0 +1,9 @@
+pathway 	& d_pathway 	& n_genes 	& expression_ant 	& expression_post 	& t_test \\
+Activation of BH3-only proteins 	& 1.02 	& 18(0) 	& 1.23 	& 1.18 	& 0.00605 \\
+RNA Polymerase I Chain Elongation 	& 0.99 	& 56(0) 	& 1.2 	& 1.31 	& 0.0487 \\
+RNA Polymerase I Promoter Opening 	& 1.12 	& 30(0) 	& 1.3 	& 1.47 	& 0.116 \\
+Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3 	& 1.08 	& 32(0) 	& 1.23 	& 1.4 	& 0.105 \\
+Phosphorylation of the APC/C 	& 1.06 	& 19(0) 	& 1.2 	& 1.21 	& 0.685 \\
+ERKs are inactivated 	& 1.05 	& 13(0) 	& 1.09 	& 1.08 	& 0.867 \\
+COPI-independent Golgi-to-ER retrograde traffic 	& 0.99 	& 31(0) 	& 1.12 	& 1.12 	& 0.951 \\
+Cohesin Loading onto Chromatin 	& 0.9 	& 10(0) 	& 1.32 	& 1.31 	& 0.948 \\

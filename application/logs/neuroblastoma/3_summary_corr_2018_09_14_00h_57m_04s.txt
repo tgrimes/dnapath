@@ -1,0 +1,19 @@
+Log opened 2018-09-14 00:57:04 
+
+Pathways:
+	 176 of 997 pathways have <80% of their genes expressed. These are removed.
+	Mean expression of pathways = 12.66 
+	 631 of 821 expressed pathways are significantly DC.
+	 2 pathways with p-value <= 0.01 but no significant genes.
+Genes:
+	- loading gene info from data/annotations/entrez_to_hgnc.rds 
+	Mean expression of genes = 12.18 
+	 2892 of 6920 genes significantly DC.
+... saving results for dc pathways in high-risk to ./output/neuroblastoma/zeroes0.8/tables/corr/pathways/lp2_neuro.rds.txt 
+... saving results for dc genes to ./output/neuroblastoma/zeroes0.8/tables/corr/genes/lp2_neuro.rds.txt 
+
+
+Log closed 2018-09-14 00:57:11
+
+***
+Notes:

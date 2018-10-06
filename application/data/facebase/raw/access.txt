@@ -1,0 +1,1 @@
+The RNA-seq BAM files are available from the FaceBase Consortium repository using accession numbers FB00000753.01, FB00000754.01, FB00000757.01, FB00000758.01, FB00000761.01, FB00000762.01, FB00000765.01, and FB00000767.01.

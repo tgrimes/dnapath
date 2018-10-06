@@ -1,0 +1,10 @@
+Log opened 2018-09-14 00:17:04 
+
+	- loading reactome pathway data from data/reactome/Mus_musculus_10to100_nonredundant0.9.rds 
+783 Reactome pathways found.
+
+
+Log closed 2018-09-14 00:17:04
+
+***
+Notes:

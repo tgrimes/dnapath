@@ -1,0 +1,191 @@
+pathway 	& d_pathway 	& n_genes 	& expression_ant 	& expression_post 	& t_test \\
+Trafficking of GluR2-containing AMPA receptors 	& 0.28 	& 17(7) 	& 1.11 	& 1.13 	& 0.00413 \\
+Mucopolysaccharidoses 	& 0.28 	& 11(2) 	& 1.12 	& 1.13 	& 0.00264 \\
+Purine ribonucleoside monophosphate biosynthesis 	& 0.27 	& 12(8) 	& 1.16 	& 1.12 	& 5.85e-28 \\
+TICAM1-dependent activation of IRF3/IRF7 	& 0.27 	& 12(4) 	& 1.14 	& 1.14 	& 0.351 \\
+ERKs are inactivated 	& 0.26 	& 13(4) 	& 1.18 	& 1.19 	& 0.332 \\
+Presynaptic depolarization and calcium channel opening 	& 0.26 	& 13(3) 	& 1.07 	& 1.1 	& 1.47e-12 \\
+NRIF signals cell death from the nucleus 	& 0.26 	& 20(4) 	& 1.23 	& 1.22 	& 6.49e-05 \\
+Metabolism of folate and pterines 	& 0.26 	& 17(6) 	& 1.07 	& 1.05 	& 4.09e-16 \\
+Gap junction degradation (See also: Gap junction degradation;; Formation of annular gap junctions) 	& 0.26 	& 12(3) 	& 1.28 	& 1.3 	& 0.000818 \\
+Nef Mediated CD4 Down-regulation 	& 0.25 	& 10(5) 	& 1.22 	& 1.24 	& 2.22e-05 \\
+tRNA Aminoacylation 	& 0.25 	& 42(17) 	& 1.17 	& 1.15 	& 9.57e-23 \\
+Nucleobase biosynthesis 	& 0.25 	& 15(7) 	& 1.15 	& 1.11 	& 2.78e-28 \\
+Cytosolic tRNA aminoacylation 	& 0.25 	& 24(5) 	& 1.23 	& 1.21 	& 2.36e-22 \\
+mitochondrial fatty acid beta-oxidation of saturated fatty acids 	& 0.25 	& 11(2) 	& 1.06 	& 1.07 	& 4.87e-05 \\
+NOTCH2 Activation and Transmission of Signal to the Nucleus 	& 0.25 	& 24(9) 	& 1.22 	& 1.22 	& 0.107 \\
+Pink/Parkin Mediated Mitophagy 	& 0.25 	& 22(4) 	& 1.3 	& 1.3 	& 6.76e-06 \\
+Mitochondrial iron-sulfur cluster biogenesis 	& 0.25 	& 13(4) 	& 1.11 	& 1.09 	& 6.79e-21 \\
+CREB phosphorylation through the activation of Ras 	& 0.25 	& 29(19) 	& 1.09 	& 1.11 	& 1.3e-05 \\
+ERK/MAPK targets 	& 0.25 	& 25(5) 	& 1.14 	& 1.15 	& 0.0594 \\
+CREB phosphorylation through the activation of CaMKII 	& 0.24 	& 17(3) 	& 1.08 	& 1.11 	& 5.79e-07 \\
+SeMet incorporation into proteins 	& 0.24 	& 11(1) 	& 1.23 	& 1.2 	& 1.33e-23 \\
+Branched-chain amino acid catabolism 	& 0.24 	& 23(4) 	& 1.08 	& 1.07 	& 4.24e-07 \\
+G beta:gamma signalling through PLC beta (See also: G beta:gamma signalling through PLC beta;; Presynaptic function of Kainate receptors) 	& 0.24 	& 20(4) 	& 1.11 	& 1.13 	& 0.000872 \\
+Mitochondrial tRNA aminoacylation 	& 0.24 	& 21(6) 	& 1.11 	& 1.09 	& 1.13e-19 \\
+Ras activation uopn Ca2+ infux through NMDA receptor 	& 0.24 	& 19(9) 	& 1.05 	& 1.08 	& 7.5e-06 \\
+RHO GTPases activate KTN1 	& 0.24 	& 11(5) 	& 1.18 	& 1.19 	& 0.323 \\
+Trafficking of AMPA receptors (See also: Trafficking of AMPA receptors;; Glutamate binding, activation of AMPA receptors and synaptic plasticity) 	& 0.24 	& 31(5) 	& 1.08 	& 1.11 	& 9.66e-11 \\
+CD28 dependent Vav1 pathway 	& 0.24 	& 14(3) 	& 1.04 	& 1.06 	& 0.00174 \\
+Post NMDA receptor activation events (See also: Post NMDA receptor activation events;; Activation of NMDA receptor and postsynaptic events) 	& 0.24 	& 41(19) 	& 1.06 	& 1.08 	& 2.49e-06 \\
+Nuclear Events (kinase and transcription factor activation) 	& 0.24 	& 28(7) 	& 1.13 	& 1.14 	& 0.177 \\
+Regulated proteolysis of p75NTR 	& 0.24 	& 11(5) 	& 1.14 	& 1.15 	& 0.593 \\
+NF-kB is activated and signals survival 	& 0.24 	& 13(4) 	& 1.23 	& 1.22 	& 0.0567 \\
+RAB geranylgeranylation 	& 0.24 	& 64(2) 	& 1.08 	& 1.09 	& 0.00254 \\
+DARPP-32 events 	& 0.24 	& 27(2) 	& 1.13 	& 1.14 	& 0.0289 \\
+Signaling by NOTCH1 HD Domain Mutants in Cancer (See also: Signaling by NOTCH1 HD Domain Mutants in Cancer;; Constitutive Signaling by NOTCH1 HD Domain Mutants) 	& 0.24 	& 15(3) 	& 1.21 	& 1.22 	& 0.000504 \\
+Heme biosynthesis 	& 0.24 	& 11(2) 	& 1.08 	& 1.06 	& 6.13e-07 \\
+Regulation of TP53 Activity through Acetylation 	& 0.24 	& 30(5) 	& 1.21 	& 1.2 	& 4.23e-10 \\
+Biotin transport and metabolism 	& 0.23 	& 11(3) 	& 1.09 	& 1.07 	& 1.12e-18 \\
+Transferrin endocytosis and recycling 	& 0.23 	& 31(1) 	& 1.08 	& 1.08 	& 0.493 \\
+WNT5A-dependent internalization of FZD4 	& 0.23 	& 15(3) 	& 1.16 	& 1.18 	& 0.000816 \\
+VLDLR internalisation and degradation 	& 0.23 	& 12(1) 	& 1.14 	& 1.13 	& 0.0751 \\
+Endosomal Sorting Complex Required For Transport (ESCRT) 	& 0.23 	& 32(2) 	& 1.19 	& 1.18 	& 3.23e-11 \\
+Downregulation of ERBB2:ERBB3 signaling 	& 0.23 	& 13(1) 	& 1.22 	& 1.23 	& 0.00541 \\
+DSCAM interactions 	& 0.23 	& 12(1) 	& 1.07 	& 1.07 	& 0.412 \\
+N-Glycan antennae elongation 	& 0.23 	& 15(2) 	& 1.05 	& 1.08 	& 9.27e-07 \\
+TBC/RABGAPs 	& 0.23 	& 46(1) 	& 1.17 	& 1.19 	& 9.84e-06 \\
+G alpha (12/13) signalling events 	& 0.23 	& 87(13) 	& 1.06 	& 1.08 	& 0.000178 \\
+XBP1(S) activates chaperone genes (See also: XBP1(S) activates chaperone genes;; IRE1alpha activates chaperones) 	& 0.23 	& 58(2) 	& 1.18 	& 1.18 	& 0.35 \\
+ADP signalling through P2Y purinoceptor 12 	& 0.23 	& 22(5) 	& 1.06 	& 1.08 	& 0.00153 \\
+TICAM1,TRAF6-dependent induction of TAK1 complex (See also: TICAM1,TRAF6-dependent induction of TAK1 complex;; TRAF6-mediated induction of TAK1 complex within TLR4 complex;; IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation) 	& 0.23 	& 17(1) 	& 1.11 	& 1.11 	& 0.458 \\
+CD209 (DC-SIGN) signaling 	& 0.23 	& 21(3) 	& 1.07 	& 1.08 	& 0.0259 \\
+MAPK targets/ Nuclear events mediated by MAP kinases 	& 0.23 	& 34(8) 	& 1.15 	& 1.16 	& 0.0107 \\
+Serotonin Neurotransmitter Release Cycle 	& 0.22 	& 18(2) 	& 1.17 	& 1.2 	& 9.4e-12 \\
+Pentose phosphate pathway (hexose monophosphate shunt) 	& 0.22 	& 15(4) 	& 1.06 	& 1.04 	& 2.68e-22 \\
+Pre-NOTCH Processing in Golgi 	& 0.22 	& 22(1) 	& 1.11 	& 1.13 	& 2.44e-05 \\
+Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding 	& 0.22 	& 42(8) 	& 1.1 	& 1.1 	& 0.465 \\
+RIPK1-mediated regulated necrosis (See also: RIPK1-mediated regulated necrosis;; Regulated Necrosis;; Regulation of necroptotic cell death) 	& 0.22 	& 22(3) 	& 1.04 	& 1.07 	& 0.00368 \\
+Sema4D induced cell migration and growth-cone collapse 	& 0.22 	& 30(1) 	& 1.17 	& 1.19 	& 1.19e-07 \\
+Regulation of TNFR1 signaling 	& 0.22 	& 35(1) 	& 1.12 	& 1.14 	& 2.16e-05 \\
+Citric acid cycle (TCA cycle) 	& 0.22 	& 19(5) 	& 1.19 	& 1.18 	& 7.22e-12 \\
+TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest 	& 0.22 	& 18(2) 	& 1.12 	& 1.09 	& 6.82e-24 \\
+JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1 	& 0.22 	& 23(4) 	& 1.17 	& 1.17 	& 8.99e-06 \\
+Synthesis of glycosylphosphatidylinositol (GPI) 	& 0.22 	& 19(2) 	& 1.06 	& 1.05 	& 5.8e-19 \\
+Sema4D in semaphorin signaling 	& 0.22 	& 33(4) 	& 1.15 	& 1.18 	& 8.4e-06 \\
+Retrograde transport at the Trans-Golgi-Network 	& 0.22 	& 50(4) 	& 1.15 	& 1.15 	& 0.292 \\
+Intra-Golgi traffic 	& 0.22 	& 44(9) 	& 1.11 	& 1.11 	& 0.754 \\
+TICAM1, RIP1-mediated IKK complex recruitment  	& 0.22 	& 20(3) 	& 1.16 	& 1.16 	& 0.324 \\
+p75NTR signals via NF-kB 	& 0.22 	& 20(4) 	& 1.19 	& 1.19 	& 0.0536 \\
+RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known 	& 0.22 	& 38(5) 	& 1.21 	& 1.21 	& 0.0357 \\
+Cell death signalling via NRAGE, NRIF and NADE 	& 0.22 	& 81(13) 	& 1.1 	& 1.11 	& 0.0117 \\
+Signaling by Hippo 	& 0.22 	& 20(1) 	& 1.09 	& 1.1 	& 0.0593 \\
+Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters 	& 0.22 	& 21(3) 	& 1.14 	& 1.15 	& 0.0264 \\
+Beta-catenin phosphorylation cascade 	& 0.22 	& 17(3) 	& 1.16 	& 1.17 	& 0.594 \\
+Thromboxane signalling through TP receptor 	& 0.22 	& 23(2) 	& 1.1 	& 1.11 	& 0.00448 \\
+Post-chaperonin tubulin folding pathway 	& 0.22 	& 23(3) 	& 1.06 	& 1.05 	& 0.0589 \\
+Cyclin D associated events in G1 (See also: Cyclin D associated events in G1;; G1 Phase) 	& 0.22 	& 44(3) 	& 1.18 	& 1.16 	& 1.2e-16 \\
+Mitophagy 	& 0.22 	& 29(1) 	& 1.28 	& 1.27 	& 4.34e-15 \\
+ER Quality Control Compartment (ERQC) 	& 0.22 	& 21(1) 	& 1.22 	& 1.22 	& 0.000168 \\
+Activation of kainate receptors upon glutamate binding 	& 0.22 	& 32(2) 	& 1.12 	& 1.14 	& 2.32e-07 \\
+Lysosome Vesicle Biogenesis 	& 0.22 	& 35(1) 	& 1.15 	& 1.16 	& 0.159 \\
+Signaling by NOTCH2 	& 0.22 	& 40(2) 	& 1.13 	& 1.15 	& 4.5e-05 \\
+Signal transduction by L1 	& 0.22 	& 21(3) 	& 1.2 	& 1.21 	& 4.44e-06 \\
+Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation 	& 0.22 	& 40(3) 	& 1.15 	& 1.14 	& 0.00258 \\
+Regulation of commissural axon pathfinding by SLIT and ROBO 	& 0.22 	& 12(4) 	& 1.1 	& 1.13 	& 9.87e-06 \\
+Interconversion of nucleotide di- and triphosphates 	& 0.22 	& 32(2) 	& 1.19 	& 1.16 	& 3.67e-35 \\
+tRNA modification in the nucleus and cytosol 	& 0.22 	& 45(3) 	& 1.09 	& 1.06 	& 3.84e-29 \\
+COPI-dependent Golgi-to-ER retrograde traffic 	& 0.22 	& 100(7) 	& 1.09 	& 1.07 	& 8.17e-15 \\
+Synthesis of PIPs at the early endosome membrane 	& 0.22 	& 20(1) 	& 1.09 	& 1.09 	& 0.486 \\
+Methylation 	& 0.22 	& 14(1) 	& 1.06 	& 1.04 	& 2.27e-15 \\
+The role of Nef in HIV-1 replication and disease pathogenesis 	& 0.21 	& 28(2) 	& 1.13 	& 1.15 	& 0.00149 \\
+Formation of tubulin folding intermediates by CCT/TriC 	& 0.21 	& 26(2) 	& 1.1 	& 1.08 	& 1.76e-05 \\
+activated TAK1 mediates p38 MAPK activation 	& 0.21 	& 24(4) 	& 1.15 	& 1.14 	& 0.000704 \\
+Pyruvate metabolism and Citric Acid (TCA) cycle 	& 0.21 	& 49(18) 	& 1.08 	& 1.07 	& 8.81e-19 \\
+RAB GEFs exchange GTP for GDP on RABs 	& 0.21 	& 90(7) 	& 1.13 	& 1.14 	& 0.0306 \\
+Formation of TC-NER Pre-Incision Complex 	& 0.21 	& 54(1) 	& 1.21 	& 1.19 	& 3.36e-38 \\
+COPII (Coat Protein 2) Mediated Vesicle Transport 	& 0.21 	& 68(11) 	& 1.13 	& 1.13 	& 0.261 \\
+Regulation of PTEN gene transcription 	& 0.21 	& 61(14) 	& 1.14 	& 1.14 	& 0.00535 \\
+Sema3A PAK dependent Axon repulsion 	& 0.21 	& 17(3) 	& 1.26 	& 1.27 	& 5.27e-07 \\
+Formation of the Early Elongation Complex (See also: Formation of the Early Elongation Complex;; Formation of the HIV-1 Early Elongation Complex) 	& 0.21 	& 33(1) 	& 1.18 	& 1.15 	& 3.95e-45 \\
+Signaling by FGFR2 IIIa TM 	& 0.21 	& 19(2) 	& 1.15 	& 1.12 	& 3.24e-27 \\
+RNA Pol II CTD phosphorylation and interaction with CE during HIV infection (See also: RNA Pol II CTD phosphorylation and interaction with CE during HIV infection;; mRNA Capping;; RNA Pol II CTD phosphorylation and interaction with CE) 	& 0.21 	& 27(1) 	& 1.16 	& 1.14 	& 4.47e-43 \\
+trans-Golgi Network Vesicle Budding (See also: trans-Golgi Network Vesicle Budding;; Clathrin derived vesicle budding) 	& 0.21 	& 72(7) 	& 1.16 	& 1.16 	& 0.795 \\
+NRAGE signals death through JNK 	& 0.21 	& 60(11) 	& 1.05 	& 1.07 	& 0.000405 \\
+Iron uptake and transport 	& 0.21 	& 60(2) 	& 1.11 	& 1.11 	& 0.283 \\
+IRAK1 recruits IKK complex (See also: IRAK1 recruits IKK complex;; IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation) 	& 0.21 	& 15(1) 	& 1.22 	& 1.2 	& 4.16e-34 \\
+Intrinsic Pathway for Apoptosis 	& 0.21 	& 48(6) 	& 1.14 	& 1.15 	& 0.0556 \\
+Golgi Associated Vesicle Biogenesis 	& 0.21 	& 56(10) 	& 1.17 	& 1.17 	& 0.0342 \\
+RNA Polymerase I Promoter Escape 	& 0.21 	& 30(7) 	& 1.14 	& 1.12 	& 7.52e-31 \\
+HSF1-dependent transactivation 	& 0.21 	& 24(5) 	& 1.22 	& 1.23 	& 0.00507 \\
+HSF1 activation 	& 0.21 	& 12(1) 	& 1.39 	& 1.37 	& 1.56e-15 \\
+Processive synthesis on the C-strand of the telomere (See also: Processive synthesis on the C-strand of the telomere;; Removal of the Flap Intermediate from the C-strand) 	& 0.21 	& 11(1) 	& 1.2 	& 1.15 	& 2.96e-28 \\
+HSP90 chaperone cycle for steroid hormone receptors (SHR) 	& 0.21 	& 56(11) 	& 1.1 	& 1.11 	& 0.487 \\
+TNF signaling 	& 0.21 	& 45(5) 	& 1.12 	& 1.13 	& 0.00129 \\
+RHO GTPases activate IQGAPs 	& 0.21 	& 33(1) 	& 1.11 	& 1.11 	& 0.644 \\
+Ovarian tumor domain proteases 	& 0.21 	& 38(2) 	& 1.08 	& 1.08 	& 0.645 \\
+Glycogen synthesis 	& 0.21 	& 16(1) 	& 1.09 	& 1.09 	& 0.639 \\
+RNA Polymerase I Transcription Termination 	& 0.21 	& 36(4) 	& 1.14 	& 1.11 	& 3.66e-31 \\
+RNA Polymerase III Transcription Termination 	& 0.21 	& 24(2) 	& 1.15 	& 1.13 	& 3.38e-21 \\
+FCERI mediated MAPK activation 	& 0.21 	& 35(3) 	& 1.1 	& 1.13 	& 2.99e-06 \\
+Glucagon signaling in metabolic regulation 	& 0.21 	& 33(1) 	& 1.07 	& 1.1 	& 1.02e-12 \\
+RAF-independent MAPK1/3 activation 	& 0.21 	& 23(1) 	& 1.1 	& 1.11 	& 0.0838 \\
+Negative regulation of MAPK pathway 	& 0.21 	& 40(7) 	& 1.19 	& 1.19 	& 0.00546 \\
+MAP kinase activation in TLR cascade 	& 0.21 	& 69(10) 	& 1.14 	& 1.15 	& 0.806 \\
+Norepinephrine Neurotransmitter Release Cycle 	& 0.21 	& 18(2) 	& 1.08 	& 1.11 	& 2.24e-14 \\
+Formation of Incision Complex in GG-NER 	& 0.21 	& 43(1) 	& 1.22 	& 1.2 	& 1.13e-47 \\
+The role of GTSE1 in G2/M progression after G2 checkpoint 	& 0.21 	& 78(1) 	& 1.16 	& 1.14 	& 7.28e-16 \\
+Downregulation of ERBB2 signaling 	& 0.21 	& 29(1) 	& 1.05 	& 1.06 	& 0.0506 \\
+Cargo recognition for clathrin-mediated endocytosis 	& 0.21 	& 99(1) 	& 1.07 	& 1.09 	& 2.33e-05 \\
+RUNX3 regulates YAP1-mediated transcription 	& 0.21 	& 22(1) 	& 1.09 	& 1.1 	& 0.295 \\
+ABC transporter disorders 	& 0.21 	& 81(3) 	& 1.07 	& 1.06 	& 8.99e-08 \\
+Spry regulation of FGF signaling 	& 0.21 	& 16(1) 	& 1.29 	& 1.29 	& 0.0455 \\
+COPI-independent Golgi-to-ER retrograde traffic 	& 0.21 	& 52(10) 	& 1.11 	& 1.12 	& 0.0855 \\
+Base-Excision Repair, AP Site Formation 	& 0.21 	& 10(1) 	& 1.12 	& 1.11 	& 1.45e-15 \\
+SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription 	& 0.21 	& 38(3) 	& 1.12 	& 1.12 	& 0.00364 \\
+Signaling by NOTCH1 PEST Domain Mutants in Cancer (See also: Signaling by NOTCH1 PEST Domain Mutants in Cancer;; Signaling by NOTCH1 in Cancer;; Constitutive Signaling by NOTCH1 PEST Domain Mutants;; Signaling by NOTCH1 HD+PEST Domain Mutants in Cancer;; Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants) 	& 0.21 	& 58(5) 	& 1.16 	& 1.17 	& 0.00149 \\
+BMAL1:CLOCK,NPAS2 activates circadian gene expression 	& 0.21 	& 50(6) 	& 1.05 	& 1.06 	& 0.796 \\
+HIV Transcription Initiation (See also: HIV Transcription Initiation;; RNA Polymerase II HIV Promoter Escape;; RNA Polymerase II Promoter Escape;; RNA Polymerase II Transcription Pre-Initiation And Promoter Opening;; RNA Polymerase II Transcription Initiation;; RNA Polymerase II Transcription Initiation And Promoter Clearance) 	& 0.21 	& 46(1) 	& 1.1 	& 1.08 	& 1.61e-43 \\
+Death Receptor Signalling 	& 0.21 	& 52(1) 	& 1.08 	& 1.09 	& 0.00104 \\
+Cyclin A/B1/B2 associated events during G2/M transition 	& 0.21 	& 30(1) 	& 1.14 	& 1.09 	& 2.2e-25 \\
+Translocation of ZAP-70 to Immunological synapse 	& 0.21 	& 19(2) 	& 1.02 	& 1.12 	& 1.49e-06 \\
+Signaling by BRAF and RAF fusions 	& 0.21 	& 61(1) 	& 1.11 	& 1.12 	& 0.0306 \\
+Metabolism of polyamines 	& 0.2 	& 86(2) 	& 1.1 	& 1.08 	& 8.84e-17 \\
+MAPK6/MAPK4 signaling 	& 0.2 	& 89(9) 	& 1.16 	& 1.15 	& 1.29e-12 \\
+Formation of the ternary complex, and subsequently, the 43S complex 	& 0.2 	& 53(2) 	& 1.45 	& 1.39 	& 1.45e-21 \\
+Gap-filling DNA repair synthesis and ligation in TC-NER 	& 0.2 	& 65(3) 	& 1.2 	& 1.17 	& 1.24e-42 \\
+Transcription-Coupled Nucleotide Excision Repair (TC-NER) 	& 0.2 	& 79(2) 	& 1.19 	& 1.17 	& 1.21e-42 \\
+p53-Dependent G1 DNA Damage Response (See also: p53-Dependent G1 DNA Damage Response;; p53-Dependent G1/S DNA damage checkpoint;; G1/S DNA Damage Checkpoints) 	& 0.2 	& 66(1) 	& 1.19 	& 1.17 	& 6.55e-21 \\
+TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation 	& 0.2 	& 99(6) 	& 1.1 	& 1.1 	& 0.234 \\
+PI Metabolism 	& 0.2 	& 90(6) 	& 1.05 	& 1.06 	& 1.43e-05 \\
+Toll Like Receptor 10 (TLR10) Cascade (See also: Toll Like Receptor 10 (TLR10) Cascade;; Toll Like Receptor 5 (TLR5) Cascade;; MyD88 cascade initiated on plasma membrane) 	& 0.2 	& 92(4) 	& 1.11 	& 1.12 	& 0.369 \\
+N-glycan trimming in the ER and Calnexin/Calreticulin cycle 	& 0.2 	& 35(2) 	& 1.25 	& 1.24 	& 6.54e-23 \\
+Association of TriC/CCT with target proteins during biosynthesis 	& 0.2 	& 48(3) 	& 1.15 	& 1.14 	& 3.97e-28 \\
+Gap-filling DNA repair synthesis and ligation in GG-NER 	& 0.2 	& 25(1) 	& 1.22 	& 1.19 	& 1.22e-32 \\
+Activation of BH3-only proteins 	& 0.2 	& 31(3) 	& 1.17 	& 1.17 	& 0.109 \\
+Caspase-mediated cleavage of cytoskeletal proteins 	& 0.2 	& 12(1) 	& 1.17 	& 1.19 	& 6.24e-08 \\
+RAF activation 	& 0.2 	& 25(2) 	& 1.18 	& 1.18 	& 0.023 \\
+Signaling by PDGF 	& 0.2 	& 58(5) 	& 1.07 	& 1.09 	& 0.000396 \\
+VEGFR2 mediated vascular permeability 	& 0.2 	& 29(2) 	& 1.2 	& 1.21 	& 2.4e-05 \\
+Downstream signal transduction 	& 0.2 	& 29(2) 	& 1.15 	& 1.16 	& 0.0144 \\
+Synthesis of PIPs at the plasma membrane 	& 0.2 	& 53(4) 	& 1.05 	& 1.07 	& 6.93e-07 \\
+Dual incision in TC-NER 	& 0.2 	& 66(1) 	& 1.19 	& 1.17 	& 1.04e-42 \\
+Prefoldin mediated transfer of substrate  to CCT/TriC 	& 0.2 	& 28(1) 	& 1.23 	& 1.21 	& 5.2e-11 \\
+Regulation of TP53 Activity through Phosphorylation 	& 0.2 	& 91(3) 	& 1.11 	& 1.09 	& 2.63e-33 \\
+TAK1 activates NFkB by phosphorylation and activation of IKKs complex 	& 0.2 	& 35(5) 	& 1.12 	& 1.12 	& 0.434 \\
+Costimulation by the CD28 family 	& 0.2 	& 74(4) 	& 1.05 	& 1.09 	& 1.46e-05 \\
+Recognition of DNA damage by PCNA-containing replication complex 	& 0.2 	& 30(2) 	& 1.2 	& 1.17 	& 1.24e-34 \\
+Insulin receptor recycling 	& 0.2 	& 26(1) 	& 1.1 	& 1.11 	& 0.184 \\
+Global Genome Nucleotide Excision Repair (GG-NER) 	& 0.2 	& 84(1) 	& 1.2 	& 1.18 	& 3.16e-44 \\
+Deadenylation-dependent mRNA decay 	& 0.2 	& 64(1) 	& 1.18 	& 1.16 	& 1.59e-35 \\
+Interleukin-17 signaling 	& 0.2 	& 77(5) 	& 1.07 	& 1.08 	& 0.444 \\
+Cargo trafficking to the periciliary membrane 	& 0.2 	& 59(2) 	& 1.06 	& 1.06 	& 1.01e-07 \\
+Signaling by PTK6 (See also: Signaling by PTK6;; Signaling by Non-Receptor Tyrosine Kinases) 	& 0.2 	& 55(5) 	& 1.07 	& 1.09 	& 0.00314 \\
+Dual Incision in GG-NER 	& 0.2 	& 41(1) 	& 1.2 	& 1.17 	& 4.19e-40 \\
+Negative regulators of DDX58/IFIH1 signaling 	& 0.2 	& 40(1) 	& 1.15 	& 1.16 	& 0.161 \\
+CD28 co-stimulation 	& 0.2 	& 35(4) 	& 1.09 	& 1.11 	& 0.00148 \\
+SUMOylation of transcription factors 	& 0.2 	& 22(1) 	& 1.06 	& 1.07 	& 0.0012 \\
+Uptake and actions of bacterial toxins 	& 0.2 	& 36(1) 	& 1.15 	& 1.19 	& 1.72e-15 \\
+mTOR signalling 	& 0.2 	& 41(2) 	& 1.12 	& 1.12 	& 6.66e-07 \\
+Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding 	& 0.2 	& 33(2) 	& 1.16 	& 1.14 	& 1.16e-09 \\
+Translation initiation complex formation (See also: Translation initiation complex formation;; Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S;; Ribosomal scanning and start codon recognition) 	& 0.2 	& 60(2) 	& 1.42 	& 1.36 	& 1.45e-22 \\
+Generation of second messenger molecules 	& 0.2 	& 35(3) 	& 1.06 	& 1.12 	& 1.19e-06 \\
+Oncogenic MAPK signaling 	& 0.2 	& 77(1) 	& 1.1 	& 1.11 	& 0.0389 \\
+mRNA Splicing - Minor Pathway 	& 0.2 	& 52(1) 	& 1.25 	& 1.22 	& 3.15e-40 \\
+Glycolysis 	& 0.2 	& 71(1) 	& 1.11 	& 1.1 	& 3.88e-14 \\
+NOD1/2 Signaling Pathway 	& 0.2 	& 39(4) 	& 1.1 	& 1.11 	& 0.00878 \\
+Glucose metabolism 	& 0.2 	& 91(4) 	& 1.07 	& 1.06 	& 6.04e-13 \\
+Cellular response to heat stress 	& 0.2 	& 88(8) 	& 1.2 	& 1.19 	& 1.27e-14 \\
+HDR through Homologous Recombination (HRR) 	& 0.2 	& 67(2) 	& 1.14 	& 1.09 	& 3.04e-30 \\
+TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling 	& 0.2 	& 16(1) 	& 1.16 	& 1.15 	& 0.364 \\
+ATF4 activates genes 	& 0.19 	& 25(1) 	& 1.15 	& 1.13 	& 1.07e-17 \\

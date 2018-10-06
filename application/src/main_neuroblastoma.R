@@ -1,0 +1,122 @@
+# Tyler Grimes
+# December 5, 2017
+#
+# Differential network analysis
+source("src/init_required_packages_and_files.R")
+
+# Create network inference function for dna from association function in SeqNet.
+fn_network_inference <- function(fn = cor) {
+  function(x) {
+    # We will only work with genes that have nonzero variation. 
+    index <- which(apply(x, 2, sd) > 0)
+    if(length(index) < 2) return(NA)
+    
+    # Center and scale the gene expression profile by column.
+    x[, index] <- scale(x[, index])
+    
+    # Estimate the association network, then standardize the matrix of scores.
+    scores <- fn(x[, index])
+    diag(scores) <- 0
+    
+    # Complete the association matrix A.
+    p <- ncol(x)
+    if(length(index) == p) {
+      A <- scores
+    } else {
+      A <- matrix(0, p, p)
+      A[index, index] <- scores
+    }
+    colnames(A) <- colnames(x)
+    return(A)
+  }
+}
+
+# Use .bam files to compute differential expression scores.
+dir_output <- "./output/neuroblastoma/" # Starting directory for output. A subdirectory will be
+# when the data are filtered. Each DNA method will be
+# given a subdirectory in the filtered data directory.
+dir_bam <- "./data/neuroblastoma/raw/bam/"   # Directory containing the folders of .bam files.
+dir_counts <- "./data/neuroblastoma/counts/" # Directory where expression counts will be stored.
+dir_log <- "./logs/neuroblastoma/"
+
+source("src/scripts_neuroblastoma/normalized_to_dna.R")
+source("src/scripts_neuroblastoma/dna_to_summary.R")
+
+# #
+# # Filter raw counts based on low mean expression, low variance, etc.
+# #
+open_log("1_filter_counts", dir_log)
+counts_files_list <- paste0(dir_counts, list.files(dir_counts))
+#Load and filter counts.
+counts_pair <- lapply(counts_files_list, function(csv_file) {
+  create_counts(csv_file) %>%
+    apply_filter_percent_zero_at_most(0.80) %>%
+    (function(counts) {
+      cat("\t\t", nrow(counts), "genes remaining\n")
+      return(counts)
+    })
+})
+names(counts_pair) <- gsub(".csv", "", list.files(dir_counts))
+filtered_counts_name <- save_counts(counts_pair,
+                                    file_name = NULL,
+                                    dir_output = dir_output,
+                                    make_subdir = TRUE)
+close_log()
+
+# The filtered data subdirectory will be the root for further output.
+dir_filtered <- paste0(dir_output, filtered_counts_name, "/")
+
+
+
+
+#
+# 4. Perform dna on normalized counts.
+#
+# Load in counts list.
+filtered_counts_name <- "zeroes0.8"
+dir_filtered <- paste0(dir_output, filtered_counts_name, "/")
+lp_set <- c(1, 1.25, 1.5, 1.75, 2)
+
+open_log("2_dna_corr", dir_log)
+normalized_to_dna(dir_filtered,
+                  network_inference = fn_network_inference(corC),
+                  lp_set = lp_set,
+                  dir_label = "corr")
+close_log()
+gc()
+
+open_log("2_dna_pcor", dir_log)
+normalized_to_dna(dir_filtered,
+                  network_inference = fn_network_inference(pcor_shrinkC),
+                  lp_set = lp_set,
+                  dir_label = "pcor")
+close_log()
+gc()
+
+
+#
+# 5. Summarize dna results.
+# 
+filtered_counts_name <- "zeroes0.8"
+dir_filtered <- paste0(dir_output, filtered_counts_name, "/")
+signif <- 0.01
+
+open_log("3_summary_corr", dir_log)
+summarize_results_from_dna(dataset = "neuroblastoma",
+                           measure = "corr",
+                           lp = 2,
+                           pair_name = "high-risk",
+                           dir_output = dir_filtered,
+                           signif = signif)
+close_log()
+gc()
+
+open_log("3_summary_pcor", dir_log)
+summarize_results_from_dna(dataset = "neuroblastoma",
+                           measure = "pcor",
+                           lp = 2,
+                           pair_name = "high-risk",
+                           dir_output = dir_filtered,
+                           signif = signif)
+close_log()
+gc()

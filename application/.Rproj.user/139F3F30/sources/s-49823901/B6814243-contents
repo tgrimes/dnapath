@@ -1,0 +1,39 @@
+patient_data <- readRDS("data/neuroblastoma/patient_data.rds")
+counts <- readRDS("data/neuroblastoma/genes.rds")
+
+index_train <- which(patient_data$training == "Training")
+index_test <- which(patient_data$training != "Training")
+index_hr <- which(patient_data$high_risk == "Y")
+index_normal <- which(patient_data$high_risk != "Y")
+
+# Create counts for training set. Split by high risk vs non high risk.
+counts_train_hr <- counts[, c(1, 1 + intersect(index_train, index_hr))]
+counts_train_normal <- counts[, c(1, 1 + intersect(index_train, index_normal))]
+colnames(counts_train_hr) <- c("entrezgene", 
+                                gsub("SEQC_NB", 
+                                     "sample_", 
+                                     colnames(counts_train_hr)[-1]))
+colnames(counts_train_normal) <- c("entrezgene", 
+                             gsub("SEQC_NB", 
+                                  "sample_", 
+                                  colnames(counts_train_normal)[-1]))
+write.csv(counts_train_hr, "data/neuroblastoma/counts_train/HR.csv",
+          row.names = FALSE)
+write.csv(counts_train_normal, "data/neuroblastoma/counts_train/normal.csv",
+          row.names = FALSE)
+
+# Create counts for testing set. Split by high risk vs non high risk.
+counts_test_hr <- counts[, c(1, 1 + intersect(index_test, index_hr))]
+counts_test_normal <- counts[, c(1, 1 + intersect(index_test, index_normal))]
+colnames(counts_test_hr) <- c("entrezgene", 
+                               gsub("SEQC_NB", 
+                                    "sample_", 
+                                    colnames(counts_test_hr)[-1]))
+colnames(counts_test_normal) <- c("entrezgene", 
+                                   gsub("SEQC_NB", 
+                                        "sample_", 
+                                        colnames(counts_test_normal)[-1]))
+write.csv(counts_test_hr, "data/neuroblastoma/counts_test/HR.csv",
+          row.names = FALSE)
+write.csv(counts_test_normal, "data/neuroblastoma/counts_test/normal.csv",
+          row.names = FALSE)

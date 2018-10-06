@@ -1,0 +1,29 @@
+load("data/neuroblastoma/patient_data")
+patient_data <- as_tibble(patient_data)
+saveRDS(patient_data, "data/neuroblastoma/patient_data.rds")
+
+load("data/neuroblastoma/clinical_predictors")
+clinical_data <- as_tibble(clinical_data)
+saveRDS(clinical_data, "data/neuroblastoma/clinical.rds")
+
+load("data/neuroblastoma/genes_ncbi")
+hgnc_symbol <- colnames(genes)
+patient_labels <- rownames(genes)
+x <- as_tibble(t(genes))
+x <- cbind(hgnc_symbol, x)
+colnames(x) <- c("hgnc_symbol", patient_labels)
+
+x <- symbol_to_entrez(x, "human")
+x <- x[, c(500, 2:499)]
+
+mean(is.na(x$entrezgene))
+
+x <- dplyr::filter(x, !is.na(entrezgene))
+saveRDS(x, "data/neuroblastoma/genes.rds")
+
+load("data/neuroblastoma/patient_data")
+patient_data <- as_tibble(patient_data)
+survival_data <- dplyr::select(patient_data, sample_id, os_days, 
+                               death_from_disease, high_risk, inss_stage)
+survival_data$death_from_disease <- survival_data$death_from_disease == "Y"
+saveRDS(survival_data, "data/neuroblastoma/survival_data.rds")

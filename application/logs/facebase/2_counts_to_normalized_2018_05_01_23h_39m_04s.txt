@@ -1,0 +1,61 @@
+Log opened 2018-05-01 23:39:04 
+
+Running: `counts_to_normalized()` with params:
+	 dir_input_counts = ./data/facebase/counts/ 
+	 dir_input_lengths = ./data/facebase/gene_length/ 
+	 dir_output_counts = ./data/facebase/normalized/ 
+Loading gene lengths from ./data/facebase/gene_length/gene_length.csv 
+	Loading .csv file from ./data/facebase/counts/Ant_Lateral.csv 
+	 - applying TPM normalization and log2(1 + x) transformation.
+	Saving normalized .csv file to ./data/facebase/normalized/Ant_Lateral.csv 
+	Loading .csv file from ./data/facebase/counts/Ant_Medial.csv 
+	 - applying TPM normalization and log2(1 + x) transformation.
+	Saving normalized .csv file to ./data/facebase/normalized/Ant_Medial.csv 
+	Loading .csv file from ./data/facebase/counts/Ant_Nasal.csv 
+	 - applying TPM normalization and log2(1 + x) transformation.
+	Saving normalized .csv file to ./data/facebase/normalized/Ant_Nasal.csv 
+	Loading .csv file from ./data/facebase/counts/Ant_Oral.csv 
+	 - applying TPM normalization and log2(1 + x) transformation.
+	Saving normalized .csv file to ./data/facebase/normalized/Ant_Oral.csv 
+	Loading .csv file from ./data/facebase/counts/Post_Lateral.csv 
+	 - applying TPM normalization and log2(1 + x) transformation.
+	Saving normalized .csv file to ./data/facebase/normalized/Post_Lateral.csv 
+	Loading .csv file from ./data/facebase/counts/Post_Medial.csv 
+	 - applying TPM normalization and log2(1 + x) transformation.
+	Saving normalized .csv file to ./data/facebase/normalized/Post_Medial.csv 
+	Loading .csv file from ./data/facebase/counts/Post_Nasal.csv 
+	 - applying TPM normalization and log2(1 + x) transformation.
+	Saving normalized .csv file to ./data/facebase/normalized/Post_Nasal.csv 
+	Loading .csv file from ./data/facebase/counts/Post_Oral.csv 
+	 - applying TPM normalization and log2(1 + x) transformation.
+	Saving normalized .csv file to ./data/facebase/normalized/Post_Oral.csv 
+[[1]]
+[1] "./data/facebase/normalized/Ant_Lateral.csv"
+
+[[2]]
+[1] "./data/facebase/normalized/Ant_Medial.csv"
+
+[[3]]
+[1] "./data/facebase/normalized/Ant_Nasal.csv"
+
+[[4]]
+[1] "./data/facebase/normalized/Ant_Oral.csv"
+
+[[5]]
+[1] "./data/facebase/normalized/Post_Lateral.csv"
+
+[[6]]
+[1] "./data/facebase/normalized/Post_Medial.csv"
+
+[[7]]
+[1] "./data/facebase/normalized/Post_Nasal.csv"
+
+[[8]]
+[1] "./data/facebase/normalized/Post_Oral.csv"
+
+
+
+Log closed 2018-05-01 23:39:08
+
+***
+Notes:

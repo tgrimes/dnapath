@@ -1,0 +1,39 @@
+n <- 100
+x <- sample(1:n) #rpois(n, 10)
+y <- sample(1:n) #rpois(n, 10)
+
+x_rank <- rank(-x, ties = "min")
+y_rank <- rank(-y, ties = "min")
+
+a <- function(x) {
+  sapply(1:length(x), function(i) {
+    val <- rep(0, length(x))
+    val[x > x[i]] <- 1
+    val[x < x[i]] <- -1
+    return(val)
+  })
+}
+
+cor(x, y, method = "kendall")
+sum(a(x) * a(y)) / sqrt(sum(a(x)^2) * sum(a(y)^2))
+
+names(x) <- 1:n
+names(y) <- 1:n
+names(x_rank) <- 1:n
+names(y_rank) <- 1:n
+
+A <- function(d) {
+  sapply(d, function(d) {
+    2 * sum((x_rank <= d) & (y_rank <= d)) / 
+      (sum(x_rank <= d) + sum(y_rank <= d))
+  })
+}
+my_rbo <- function() {
+  A(k) * p^(k) + (1 - p) * sum(A(1:k) * p^(0:(k - 1)))
+}
+
+
+k <- min(max(x), max(y), 20)
+p <- 0.9
+rbo(x_rank, y_rank, p = p, side = "bottom")
+my_rbo()

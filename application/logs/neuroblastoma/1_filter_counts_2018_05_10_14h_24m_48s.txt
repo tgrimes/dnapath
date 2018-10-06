@@ -1,0 +1,22 @@
+Log opened 2018-05-10 14:24:48 
+
+Creating counts for training. Filter out genes with > 80% zeroes.
+Loading .csv file from ./data/neuroblastoma/counts_train/HR.csv 
+	 - Filtering counts: percent zero at most 0.8 
+	 	 removed 0 genes with more than 0.8 zeroes
+		 17115 genes remaining
+Loading .csv file from ./data/neuroblastoma/counts_train/normal.csv 
+	 - Filtering counts: percent zero at most 0.8 
+	 	 removed 0 genes with more than 0.8 zeroes
+		 17115 genes remaining
+Saving filtered counts to ./output/neuroblastoma/zeroes0.8_training/zeroes0.8_training 
+Creating counts for testing. No filtering applied.
+Loading .csv file from ./data/neuroblastoma/counts_test/HR.csv 
+Loading .csv file from ./data/neuroblastoma/counts_test/normal.csv 
+Saving filtered counts to ./output/neuroblastoma/testing/testing 
+
+
+Log closed 2018-05-10 14:25:00
+
+***
+Notes:

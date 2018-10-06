@@ -1,0 +1,84 @@
+Log opened 2018-09-16 22:23:31 
+
+Lateral --------------------------------------
+Pathways:
+	 153 of 782 pathways have <80% of their genes expressed. These are removed.
+	Mean expression of pathways = 5.28 
+	 52 of 629 expressed pathways are significantly DC.
+	 47 pathways with p-value <= 0.1 but no significant genes.
+Genes:
+	- loading gene info from data/annotations/entrez_to_mgi.rds 
+	Mean expression of genes = 4.81 
+	 1063 of 5235 genes significantly DC.
+	 66 of 5235 genes significantly DC with monotonization.
+	 9 of 52 DC pathways are also significantly DE.
+... saving results for dc pathways in Lateral to ./output/facebase/zeroes0.34_normalized/tables/corr/pathways/lp2_Lateral.txt 
+	 4 of 66 DC genes are also significantly DE.
+... saving results for dc genes to ./output/facebase/zeroes0.34_normalized/tables/corr/genes/lp2_Lateral.txt 
+============================================== 
+Medial --------------------------------------
+Pathways:
+	 161 of 783 pathways have <80% of their genes expressed. These are removed.
+	Mean expression of pathways = 5.12 
+	 7 of 622 expressed pathways are significantly DC.
+	 6 pathways with p-value <= 0.1 but no significant genes.
+Genes:
+	- loading gene info from data/annotations/entrez_to_mgi.rds 
+	Mean expression of genes = 4.64 
+	 612 of 5161 genes significantly DC.
+	 20 of 5161 genes significantly DC with monotonization.
+	 0 of 7 DC pathways are also significantly DE.
+... saving results for dc pathways in Medial to ./output/facebase/zeroes0.34_normalized/tables/corr/pathways/lp2_Medial.txt 
+	 1 of 20 DC genes are also significantly DE.
+... saving results for dc genes to ./output/facebase/zeroes0.34_normalized/tables/corr/genes/lp2_Medial.txt 
+============================================= 
+Nasal --------------------------------------
+Pathways:
+	 106 of 783 pathways have <80% of their genes expressed. These are removed.
+	Mean expression of pathways = 4.9 
+	 17 of 677 expressed pathways are significantly DC.
+	 17 pathways with p-value <= 0.1 but no significant genes.
+Genes:
+	- loading gene info from data/annotations/entrez_to_mgi.rds 
+	Mean expression of genes = 4.44 
+	 839 of 5651 genes significantly DC.
+	 26 of 5651 genes significantly DC with monotonization.
+	 3 of 17 DC pathways are also significantly DE.
+... saving results for dc pathways in Nasal to ./output/facebase/zeroes0.34_normalized/tables/corr/pathways/lp2_Nasal.txt 
+	 7 of 26 DC genes are also significantly DE.
+... saving results for dc genes to ./output/facebase/zeroes0.34_normalized/tables/corr/genes/lp2_Nasal.txt 
+============================================ 
+Oral --------------------------------------
+Pathways:
+	 105 of 783 pathways have <80% of their genes expressed. These are removed.
+	Mean expression of pathways = 4.84 
+	 19 of 678 expressed pathways are significantly DC.
+	 17 pathways with p-value <= 0.1 but no significant genes.
+Genes:
+	- loading gene info from data/annotations/entrez_to_mgi.rds 
+	Mean expression of genes = 4.32 
+	 604 of 5739 genes significantly DC.
+	 33 of 5739 genes significantly DC with monotonization.
+	 0 of 19 DC pathways are also significantly DE.
+... saving results for dc pathways in Oral to ./output/facebase/zeroes0.34_normalized/tables/corr/pathways/lp2_Oral.txt 
+	 2 of 33 DC genes are also significantly DE.
+... saving results for dc genes to ./output/facebase/zeroes0.34_normalized/tables/corr/genes/lp2_Oral.txt 
+=========================================== 
+[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+
+
+Log closed 2018-09-16 22:23:53
+
+***
+Notes:

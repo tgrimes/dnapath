@@ -1,0 +1,221 @@
+Log opened 2018-09-14 18:13:24 
+
+Running script: script_create_networks from output/simulation_monotonization/scripts_copy/ 
+Creating network with p = 500 nodes. Seed = 10003001 
+... saving list of networks to output/simulation_monotonization/generated_networks/network_seed_10003001.rds 
+
+
+Log closed 2018-09-14 18:13:25
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-14 18:13:26 
+
+Running script: script_plot_networks from output/simulation_monotonization/scripts_copy/ 
+... loading list of networks from output/simulation_monotonization/generated_networks/network_seed_10003001.rds 
+... saving network differential plot to output/simulation_monotonization/figures/network_diff_10003001.png 
+
+
+Log closed 2018-09-14 18:13:27
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-14 18:13:27 
+
+Running script: script_generate_samples from output/simulation_monotonization/scripts_copy/ 
+... loading list of networks from output/simulation_monotonization/generated_networks/network_seed_10003001.rds 
+Generating sample data from network 1 and 2 with
+ 	 n = 1e+05 
+... saving pair of generated samples to output/simulation_monotonization/generated_samples/gen_seed_10003001.rds 
+
+
+Log closed 2018-09-14 18:15:06
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-14 18:15:06 
+
+Running script: script_run_dna from output/simulation_monotonization/scripts_copy/ 
+... loading list of networks from output/simulation_monotonization/generated_networks/network_seed_10003001.rds 
+... loading list of generated samples from output/simulation_monotonization/generated_samples/gen_seed_10003001.rds 
+... saving results to output/simulation_monotonization/sim_results_dna.txt 
+
+
+Log closed 2018-09-15 07:04:50
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-15 13:01:44 
+
+Running script: script_create_networks from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): network already exists for this seed at output/simulation_monotonization/generated_networks/network_seed_10003001.rds>
+
+
+Log closed 2018-09-15 13:01:44
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-15 13:01:44 
+
+Running script: script_plot_networks from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): plot already exists for this network seed at output/simulation_monotonization/figures/network_diff_10003001.png>
+
+
+Log closed 2018-09-15 13:01:44
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-15 13:01:44 
+
+Running script: script_generate_samples from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): generated samples already exist for this network seed at output/simulation_monotonization/generated_samples/gen_seed_10003001.rds>
+
+
+Log closed 2018-09-15 13:01:44
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-15 13:01:44 
+
+Running script: script_run_dna from output/simulation_monotonization/scripts_copy/ 
+... loading list of networks from output/simulation_monotonization/generated_networks/network_seed_10003001.rds 
+... loading list of generated samples from output/simulation_monotonization/generated_samples/gen_seed_10003001.rds 
+... saving results to output/simulation_monotonization/sim_results_dna.txt 
+
+
+Log closed 2018-09-16 00:46:39
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-16 00:50:52 
+
+Running script: script_create_networks from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): network already exists for this seed at output/simulation_monotonization/generated_networks/network_seed_10003001.rds>
+
+
+Log closed 2018-09-16 00:50:52
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-16 00:50:52 
+
+Running script: script_plot_networks from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): plot already exists for this network seed at output/simulation_monotonization/figures/network_diff_10003001.png>
+
+
+Log closed 2018-09-16 00:50:52
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-16 00:50:53 
+
+Running script: script_generate_samples from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): generated samples already exist for this network seed at output/simulation_monotonization/generated_samples/gen_seed_10003001.rds>
+
+
+Log closed 2018-09-16 00:50:53
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-16 00:50:53 
+
+Running script: script_run_dna from output/simulation_monotonization/scripts_copy/ 
+... loading list of networks from output/simulation_monotonization/generated_networks/network_seed_10003001.rds 
+... loading list of generated samples from output/simulation_monotonization/generated_samples/gen_seed_10003001.rds 
+... saving results to output/simulation_monotonization/sim_results_dna.txt 
+
+
+Log closed 2018-09-16 13:37:06
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-16 23:26:03 
+
+Running script: script_create_networks from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): network already exists for this seed at output/simulation_monotonization/generated_networks/network_seed_10003001.rds>
+
+
+Log closed 2018-09-16 23:26:03
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-16 23:26:03 
+
+Running script: script_plot_networks from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): plot already exists for this network seed at output/simulation_monotonization/figures/network_diff_10003001.png>
+
+
+Log closed 2018-09-16 23:26:03
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-16 23:26:03 
+
+Running script: script_generate_samples from output/simulation_monotonization/scripts_copy/ 
+<simpleError in eval(ei, envir): generated samples already exist for this network seed at output/simulation_monotonization/generated_samples/gen_seed_10003001.rds>
+
+
+Log closed 2018-09-16 23:26:03
+
+*****
+Notes:
+
+*****
+
+Log opened 2018-09-16 23:26:03 
+
+Running script: script_run_dna from output/simulation_monotonization/scripts_copy/ 
+... loading list of networks from output/simulation_monotonization/generated_networks/network_seed_10003001.rds 
+... loading list of generated samples from output/simulation_monotonization/generated_samples/gen_seed_10003001.rds 
+... saving results to output/simulation_monotonization/sim_results_dna.txt 
+
+
+Log closed 2018-09-17 10:31:41
+
+*****
+Notes:
+
+*****
+

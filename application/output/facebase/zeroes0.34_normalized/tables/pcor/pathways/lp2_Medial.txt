@@ -1,0 +1,5 @@
+pathway 	& d_pathway 	& n_genes 	& expression_ant 	& expression_post 	& t_test \\
+Processive synthesis on the C-strand of the telomere (See also: Processive synthesis on the C-strand of the telomere;; Removal of the Flap Intermediate from the C-strand) 	& 0.19 	& 11(1) 	& 1.02 	& 1.05 	& 0.653 \\
+Removal of the Flap Intermediate (See also: Removal of the Flap Intermediate;; Processive synthesis on the lagging strand) 	& 0.15 	& 14(0) 	& 1 	& 1.04 	& 0.464 \\
+A tetrasaccharide linker sequence is required for GAG synthesis 	& 0.08 	& 26(1) 	& 1.04 	& 0.99 	& 0.44 \\
+HS-GAG biosynthesis 	& 0.08 	& 26(0) 	& 1.03 	& 0.95 	& 0.359 \\

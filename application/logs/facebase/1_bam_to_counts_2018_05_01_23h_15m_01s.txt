@@ -1,0 +1,56 @@
+Log opened 2018-05-01 23:15:01 
+
+Running script: `script_bam_to_counts` with params:
+	 dir_input = ./data/facebase/raw/bam/ 
+	 dir_output_counts = ./data/facebase/counts/ 
+	 dir_output_lengths = ./data/facebase/gene_length/ 
+Saving gene lengths to ./data/facebase/gene_length/gene_length.csv 
+Obtaining MGI gene symbols and other info from biomart.	 21585 genes from biomart after removing rows without an mgi symbol.
+	 21094 genes after removing those not on chromosomes 1 - 19 or X.
+	 21031 genes after handling duplicate mgi symbols.
+Loading .bam files in ./data/facebase/raw/bam/Ant_Lateral 
+Saving .csv file to ./data/facebase/counts/Ant_Lateral.csv 
+Loading .bam files in ./data/facebase/raw/bam/Ant_Medial 
+Saving .csv file to ./data/facebase/counts/Ant_Medial.csv 
+Loading .bam files in ./data/facebase/raw/bam/Ant_Nasal 
+Saving .csv file to ./data/facebase/counts/Ant_Nasal.csv 
+Loading .bam files in ./data/facebase/raw/bam/Ant_Oral 
+Saving .csv file to ./data/facebase/counts/Ant_Oral.csv 
+Loading .bam files in ./data/facebase/raw/bam/Post_Lateral 
+Saving .csv file to ./data/facebase/counts/Post_Lateral.csv 
+Loading .bam files in ./data/facebase/raw/bam/Post_Medial 
+Saving .csv file to ./data/facebase/counts/Post_Medial.csv 
+Loading .bam files in ./data/facebase/raw/bam/Post_Nasal 
+Saving .csv file to ./data/facebase/counts/Post_Nasal.csv 
+Loading .bam files in ./data/facebase/raw/bam/Post_Oral 
+Saving .csv file to ./data/facebase/counts/Post_Oral.csv 
+[[1]]
+[1] "./data/facebase/counts/Ant_Lateral.csv"
+
+[[2]]
+[1] "./data/facebase/counts/Ant_Medial.csv"
+
+[[3]]
+[1] "./data/facebase/counts/Ant_Nasal.csv"
+
+[[4]]
+[1] "./data/facebase/counts/Ant_Oral.csv"
+
+[[5]]
+[1] "./data/facebase/counts/Post_Lateral.csv"
+
+[[6]]
+[1] "./data/facebase/counts/Post_Medial.csv"
+
+[[7]]
+[1] "./data/facebase/counts/Post_Nasal.csv"
+
+[[8]]
+[1] "./data/facebase/counts/Post_Oral.csv"
+
+
+
+Log closed 2018-05-01 23:37:22
+
+***
+Notes:

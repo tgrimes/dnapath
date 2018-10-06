@@ -1,0 +1,21 @@
+dna_results <- dna_results_by_lp[[1]]
+dc_score <- (summarize_dnw_over_pathways(dna_results, 
+                                        gene_list = 1:p, 
+                                        signif = 1))[lower.tri(dnw)]
+is_signif <- (summarize_dnw_over_pathways(dna_results, 
+                                          gene_list = 1:p, 
+                                          signif = 0.01) > 10^-14)[lower.tri(dnw)]
+
+actual <- abs(cor2pcor(gen$`1`$sigma) - cor2pcor(gen$`2`$sigma))[lower.tri(dnw)]
+df_plot <- tibble(actual = actual,
+                  dc_score = dc_score,
+                  is_signif = is_signif)
+
+df_plot %>%
+  arrange(!is_signif) %>%
+  ggplot(aes(x = actual, y = dc_score, color = is_signif)) +
+  geom_jitter(width = 0.01, alpha = 0.5) +
+  theme_bw() +
+  labs(x = "True differential connectivity",
+       y = "DC score",
+       color = "Permutation\np-value < 0.01")

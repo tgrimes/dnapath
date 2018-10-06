@@ -1,0 +1,17 @@
+Log opened 2018-09-14 00:33:17 
+
+	- loading reactome pathway data from data/reactome/Homo_sapiens_10to100_nonredundant0.9.rds 
+1001 Reactome pathways found.
+... saving network_inference function to ./output/neuroblastoma/zeroes0.8/dna_results/pcor/network_inference 
+Inferred network is empty. Permutation test not performed.
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/pcor/lp1_neuro.rds 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/pcor/lp1.25_neuro.rds 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/pcor/lp1.5_neuro.rds 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/pcor/lp1.75_neuro.rds 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/pcor/lp2_neuro.rds 
+
+
+Log closed 2018-09-14 00:50:08
+
+***
+Notes:

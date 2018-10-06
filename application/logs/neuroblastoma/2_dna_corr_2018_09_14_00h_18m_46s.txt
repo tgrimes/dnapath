@@ -1,0 +1,16 @@
+Log opened 2018-09-14 00:18:46 
+
+	- loading reactome pathway data from data/reactome/Homo_sapiens_10to100_nonredundant0.9.rds 
+1001 Reactome pathways found.
+... saving network_inference function to ./output/neuroblastoma/zeroes0.8/dna_results/corr/network_inference 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/corr/lp1_neuro.rds 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/corr/lp1.25_neuro.rds 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/corr/lp1.5_neuro.rds 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/corr/lp1.75_neuro.rds 
+Saving dna results to ./output/neuroblastoma/zeroes0.8/dna_results/corr/lp2_neuro.rds 
+
+
+Log closed 2018-09-14 00:33:17
+
+***
+Notes:

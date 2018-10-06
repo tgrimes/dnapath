@@ -1,0 +1,20 @@
+pathway 	& d_pathway 	& n_genes 	& expression_ant 	& expression_post 	& t_test \\
+Gap junction degradation 	& 0.2 	& 10(0) 	& 1.31 	& 1.35 	& 0.097 \\
+Association of licensing factors with the pre-replicative complex 	& 0.13 	& 15(0) 	& 1.24 	& 1.27 	& 0.0056 \\
+Signaling by NOTCH1 	& 0.13 	& 16(1) 	& 1.22 	& 1.18 	& 0.0496 \\
+Deadenylation of mRNA 	& 0.08 	& 25(0) 	& 1.18 	& 1.2 	& 0.0348 \\
+IRAK2 mediated activation of TAK1 complex (See also: IRAK2 mediated activation of TAK1 complex;; IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation) 	& 0.21 	& 10(0) 	& 1.45 	& 1.44 	& 0.703 \\
+Establishment of Sister Chromatid Cohesion 	& 0.18 	& 11(0) 	& 1.18 	& 1.2 	& 0.757 \\
+p75NTR recruits signalling complexes 	& 0.16 	& 13(0) 	& 1.28 	& 1.3 	& 0.474 \\
+Gap junction trafficking and regulation 	& 0.14 	& 15(0) 	& 1.18 	& 1.2 	& 0.211 \\
+Sema3A PAK dependent Axon repulsion 	& 0.13 	& 15(0) 	& 1.09 	& 1.08 	& 0.502 \\
+Ephrin signaling 	& 0.13 	& 15(0) 	& 1.12 	& 1.09 	& 0.175 \\
+PCNA-Dependent Long Patch Base Excision Repair 	& 0.12 	& 17(0) 	& 1.08 	& 1.1 	& 0.134 \\
+CD209 (DC-SIGN) signaling 	& 0.11 	& 21(0) 	& 1.03 	& 1.02 	& 0.997 \\
+DARPP-32 events 	& 0.11 	& 18(0) 	& 1.04 	& 1.03 	& 0.811 \\
+Resolution of AP sites via the multiple-nucleotide patch replacement pathway 	& 0.11 	& 19(0) 	& 1.07 	& 1.09 	& 0.32 \\
+RHO GTPases activate PAKs 	& 0.11 	& 19(0) 	& 1.13 	& 1.11 	& 0.302 \\
+activated TAK1 mediates p38 MAPK activation 	& 0.1 	& 21(0) 	& 1.19 	& 1.19 	& 0.876 \\
+DNA strand elongation 	& 0.08 	& 24(0) 	& 1.04 	& 1.06 	& 0.295 \\
+RAF activation 	& 0.08 	& 25(0) 	& 1.08 	& 1.08 	& 0.546 \\
+Disassembly of the destruction complex and recruitment of AXIN to the membrane 	& 0.07 	& 31(1) 	& 1.04 	& 1.05 	& 0.421 \\

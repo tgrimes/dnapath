@@ -1,0 +1,6 @@
+pathway 	& d_pathway 	& n_genes 	& expression_ant 	& expression_post 	& t_test \\
+Removal of the Flap Intermediate (See also: Removal of the Flap Intermediate;; Processive synthesis on the lagging strand) 	& 0.14 	& 14(0) 	& 1.05 	& 1.06 	& 0.94 \\
+Polymerase switching on the C-strand of the telomere (See also: Polymerase switching on the C-strand of the telomere;; Polymerase switching;; Leading Strand Synthesis) 	& 0.13 	& 14(0) 	& 1.09 	& 1.1 	& 0.908 \\
+Lagging Strand Synthesis 	& 0.1 	& 20(0) 	& 1.07 	& 1.08 	& 0.941 \\
+Downregulation of ERBB2 signaling 	& 0.08 	& 26(1) 	& 0.98 	& 1.03 	& 0.801 \\
+Smooth Muscle Contraction 	& 0.08 	& 27(1) 	& 1.11 	& 1.03 	& 0.629 \\

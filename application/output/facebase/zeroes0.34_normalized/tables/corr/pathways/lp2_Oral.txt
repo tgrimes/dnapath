@@ -1,0 +1,8 @@
+pathway 	& d_pathway 	& n_genes 	& expression_ant 	& expression_post 	& t_test \\
+Calnexin/calreticulin cycle 	& 1.26 	& 26(0) 	& 1.22 	& 1.25 	& 0.822 \\
+Caspase-mediated cleavage of cytoskeletal proteins 	& 1.23 	& 11(0) 	& 1.06 	& 1.07 	& 0.94 \\
+Oncogene Induced Senescence 	& 1.23 	& 17(0) 	& 1.29 	& 1.33 	& 0.748 \\
+Syndecan interactions 	& 1.16 	& 13(0) 	& 1.04 	& 1.01 	& 0.778 \\
+Regulation of FZD by ubiquitination 	& 1.15 	& 17(1) 	& 1.23 	& 1.19 	& 0.856 \\
+Smooth Muscle Contraction 	& 1.14 	& 27(0) 	& 1.11 	& 1.03 	& 0.629 \\
+Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways 	& 1.12 	& 41(0) 	& 1.09 	& 1.05 	& 0.708 \\

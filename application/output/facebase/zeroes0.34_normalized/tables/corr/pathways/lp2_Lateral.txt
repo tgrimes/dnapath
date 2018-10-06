@@ -1,0 +1,25 @@
+pathway 	& d_pathway 	& n_genes 	& expression_ant 	& expression_post 	& t_test \\
+Gap junction degradation 	& 1.14 	& 10(0) 	& 1.31 	& 1.35 	& 0.097 \\
+Citric acid cycle (TCA cycle) 	& 1.07 	& 20(0) 	& 1.21 	& 1.24 	& 0.0524 \\
+Association of licensing factors with the pre-replicative complex 	& 1.04 	& 15(0) 	& 1.24 	& 1.27 	& 0.0056 \\
+IRAK2 mediated activation of TAK1 complex (See also: IRAK2 mediated activation of TAK1 complex;; IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation) 	& 1.19 	& 10(0) 	& 1.45 	& 1.44 	& 0.703 \\
+Activation of BAD and translocation to mitochondria  	& 1.13 	& 12(2) 	& 1.24 	& 1.24 	& 0.735 \\
+HSF1-dependent transactivation 	& 1.13 	& 20(0) 	& 1.12 	& 1.11 	& 0.568 \\
+Disassembly of the destruction complex and recruitment of AXIN to the membrane 	& 1.12 	& 31(0) 	& 1.04 	& 1.05 	& 0.421 \\
+JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1 	& 1.12 	& 20(0) 	& 1.2 	& 1.2 	& 0.957 \\
+Establishment of Sister Chromatid Cohesion 	& 1.12 	& 11(0) 	& 1.18 	& 1.2 	& 0.757 \\
+activated TAK1 mediates p38 MAPK activation 	& 1.11 	& 21(0) 	& 1.19 	& 1.19 	& 0.876 \\
+Cellular response to heat stress 	& 1.1 	& 35(0) 	& 1.14 	& 1.13 	& 0.515 \\
+A tetrasaccharide linker sequence is required for GAG synthesis 	& 1.09 	& 26(0) 	& 1.03 	& 1.03 	& 0.97 \\
+MET activates RAP1 and RAC1 	& 1.08 	& 11(0) 	& 1.13 	& 1.15 	& 0.385 \\
+TGF-beta receptor signaling activates SMADs 	& 1.07 	& 23(1) 	& 1.2 	& 1.23 	& 0.135 \\
+Deposition of new CENPA-containing nucleosomes at the centromere (See also: Deposition of new CENPA-containing nucleosomes at the centromere;; Nucleosome assembly) 	& 1.05 	& 38(0) 	& 1.08 	& 1.1 	& 0.771 \\
+Ephrin signaling 	& 1.05 	& 15(0) 	& 1.12 	& 1.09 	& 0.175 \\
+Resolution of AP sites via the multiple-nucleotide patch replacement pathway 	& 1.05 	& 19(0) 	& 1.07 	& 1.09 	& 0.32 \\
+RNA Polymerase III Transcription Initiation From Type 3 Promoter 	& 1.04 	& 28(0) 	& 1.05 	& 1.05 	& 0.122 \\
+Chromosome Maintenance 	& 1.03 	& 64(0) 	& 1.06 	& 1.07 	& 0.629 \\
+RNA Polymerase III Transcription (See also: RNA Polymerase III Transcription;; RNA Polymerase III Transcription Initiation) 	& 1.03 	& 35(0) 	& 1.06 	& 1.06 	& 0.41 \\
+Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template 	& 1.03 	& 35(0) 	& 1.15 	& 1.15 	& 0.964 \\
+Lysosome Vesicle Biogenesis 	& 1.03 	& 31(0) 	& 1.07 	& 1.07 	& 0.951 \\
+MET promotes cell motility 	& 1.02 	& 41(0) 	& 1.03 	& 1.02 	& 0.928 \\
+Formation of the beta-catenin:TCF transactivating complex 	& 1.01 	& 37(0) 	& 1.16 	& 1.15 	& 0.968 \\

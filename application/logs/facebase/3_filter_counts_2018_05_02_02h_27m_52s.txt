@@ -1,0 +1,41 @@
+Log opened 2018-05-02 02:27:52 
+
+Loading .csv file from ./data/facebase/counts/Ant_Lateral.csv 
+	 - Filtering counts: percent zero at most 0.34 
+	 	 removed 5213 genes with more than 0.34 zeroes
+		 14852 genes remaining
+Loading .csv file from ./data/facebase/counts/Ant_Medial.csv 
+	 - Filtering counts: percent zero at most 0.34 
+	 	 removed 5330 genes with more than 0.34 zeroes
+		 14735 genes remaining
+Loading .csv file from ./data/facebase/counts/Ant_Nasal.csv 
+	 - Filtering counts: percent zero at most 0.34 
+	 	 removed 4349 genes with more than 0.34 zeroes
+		 15716 genes remaining
+Loading .csv file from ./data/facebase/counts/Ant_Oral.csv 
+	 - Filtering counts: percent zero at most 0.34 
+	 	 removed 4145 genes with more than 0.34 zeroes
+		 15920 genes remaining
+Loading .csv file from ./data/facebase/counts/Post_Lateral.csv 
+	 - Filtering counts: percent zero at most 0.34 
+	 	 removed 5165 genes with more than 0.34 zeroes
+		 14900 genes remaining
+Loading .csv file from ./data/facebase/counts/Post_Medial.csv 
+	 - Filtering counts: percent zero at most 0.34 
+	 	 removed 5445 genes with more than 0.34 zeroes
+		 14620 genes remaining
+Loading .csv file from ./data/facebase/counts/Post_Nasal.csv 
+	 - Filtering counts: percent zero at most 0.34 
+	 	 removed 4855 genes with more than 0.34 zeroes
+		 15210 genes remaining
+Loading .csv file from ./data/facebase/counts/Post_Oral.csv 
+	 - Filtering counts: percent zero at most 0.34 
+	 	 removed 4805 genes with more than 0.34 zeroes
+		 15260 genes remaining
+Saving filtered counts to ./output/facebase/zeroes0.34/zeroes0.34 
+
+
+Log closed 2018-05-02 02:27:55
+
+***
+Notes:

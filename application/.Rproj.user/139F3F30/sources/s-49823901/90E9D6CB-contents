@@ -1,0 +1,105 @@
+#' Summarize differential connectivity scores from different pathways
+#' 
+#' @param results_list a list of results from performing dna() on several pathways.
+#' @param gene_list a set of entrezgene IDs to be summarized.
+#' @param signif_overall the desired overall type-I error rate.
+#' @return list of results
+summarize_dnw_over_pathways <- function(results_list, gene_list = NULL, 
+                                        signif_overall = 0.1) {
+  if(is.null(gene_list)) {
+    gene_list <- lapply(results_list, function(results) results$entrezgene) %>%
+      unlist() %>%
+      unique()
+  }
+  pathway_list <- lapply(results_list, function(results) {
+    genes <- results$entrezgene
+    genes <- genes[genes %in% gene_list]
+  })
+  signif <- get_signif_level(pathway_list, signif_overall = signif_overall)
+  
+  
+  
+  if(!all(gene_list %in% unique(unlist(pathway_list)))) {
+    warning("Some genes in gene_list are not present in results_list.")
+  }
+  
+  p <- length(gene_list)
+  dnw <- matrix(0, p, p)
+  colnames(dnw) <- gene_list
+  for(dc in results_list) {
+    # First, check that the pathway is significantly DC.
+    if(dc$p_value_pathway <= signif) {
+      index <- which(gene_list %in% dc$entrezgene)
+      dnw_p <- matrix(0, length(index), length(index))
+      p_val <- dc$p_value_edges
+      p_val[p_val > signif] <- 0
+      # Second, check that at least one edge is significantly DC.
+      if(!all(p_val == 0)) {
+        dnw_p[lower.tri(dnw_p)] <- p_val
+        # Third, remove edge if neither gene is significantly DC.
+        dnw_p[lower.tri(dnw_p)] <- dnw_p[lower.tri(dnw_p)] * 
+          c(0, 1)[1 + apply(combn(dc$p_value_genes, 2), 
+                            2, 
+                            function(x) min(x) <= signif)]
+        dnw_p[upper.tri(dnw_p)] <- t(dnw_p)[upper.tri(dnw_p)] # Symmetrize.
+        dnw_p[dnw_p > 0] <- 1
+        d_edges <- dnw_p[lower.tri(dnw_p)] * dc$d_edges
+        d_edges_old <- dnw[index, index][lower.tri(dnw[index, index])]
+        d_edges <- ifelse(d_edges_old > d_edges, d_edges_old, d_edges)
+        dnw_p <- matrix(0, length(index), length(index))
+        dnw_p[lower.tri(dnw_p)] <- d_edges
+        dnw_p <- dnw_p + t(dnw_p)
+        dnw[index, index] <- dnw_p
+      }
+    }
+  }
+  
+  return(dnw)
+}
+
+
+
+summarize_dnw_for_pathway <- function(dc, gene_list = NULL, 
+                                      signif_overall = 0.1) {
+  if(is.null(gene_list)) {
+    gene_list <- unique(dc$entrezgene)
+  }
+  pathway <- dc$entrezgene
+  signif <- get_signif_level(pathway, 
+                             signif_overall = signif_overall)
+  
+  if(!all(gene_list %in% pathway)) {
+    warning("Some genes in gene_list are not present in results_list.")
+  }
+  
+  p <- length(gene_list)
+  dnw <- matrix(0, p, p)
+  colnames(dnw) <- gene_list
+  # First, check that the pathway is significantly DC.
+  if(dc$p_value_pathway <= 1) {
+    index <- which(gene_list %in% dc$entrezgene)
+    dnw_p <- matrix(0, length(index), length(index))
+    p_val <- dc$p_value_edges
+    p_val[p_val > signif] <- 0
+    # Second, check that at least one edge is significantly DC.
+    if(!all(p_val == 0)) {
+      dnw_p[lower.tri(dnw_p)] <- p_val
+      # Third, remove edge if neither gene is significantly DC.
+      dnw_p[lower.tri(dnw_p)] <- dnw_p[lower.tri(dnw_p)] * 
+        c(0, 1)[1 + apply(combn(dc$p_value_genes, 2), 
+                          2, 
+                          function(x) min(x) <= signif)]
+      dnw_p[upper.tri(dnw_p)] <- t(dnw_p)[upper.tri(dnw_p)] # Symmetrize.
+      dnw_p[dnw_p > 0] <- 1
+      d_edges <- dnw_p[lower.tri(dnw_p)] * dc$d_edges
+      d_edges_old <- dnw[index, index][lower.tri(dnw[index, index])]
+      d_edges <- ifelse(d_edges_old > d_edges, d_edges_old, d_edges)
+      dnw_p <- matrix(0, length(index), length(index))
+      dnw_p[lower.tri(dnw_p)] <- d_edges
+      dnw_p <- dnw_p + t(dnw_p)
+      dnw[index, index] <- dnw_p
+    }
+  }
+  
+  return(dnw)
+}
